@@ -5,7 +5,7 @@
 #include <boost/archive/text_oarchive.hpp>
 #include <boost/archive/text_iarchive.hpp>
 
-#include "ContactInhibitionCellCycleModel.hpp"
+#include "ContactInhibitionCellCycleModel_g.hpp"
 #include "VolumeTrackingModifier.hpp"
 #include "WildTypeCellMutationState.hpp"
 
@@ -16,10 +16,10 @@
 #include "CellsGenerator.hpp"
 #include "UniformCellCycleModel.hpp"
 #include "TransitCellProliferativeType.hpp"
-#include "GeneralisedLinearSpringForce.hpp"
+#include "GeneralisedLinearSpringForce_g.hpp"
 #include "OffLatticeSimulation.hpp"
 #include "SmartPointers.hpp"
-#include "DiffusionForce.hpp"
+#include "DiffusionForce_g.hpp"
 #include "RandomNumberGenerator.hpp"
 //This test is always run sequentially (never in parallel)
 #include "FakePetscSetup.hpp"
